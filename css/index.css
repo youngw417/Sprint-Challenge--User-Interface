@@ -326,8 +326,7 @@ footer nav a {
 }
 
 .about-page-btn p{
-    padding: 5px;
-
+  transform: translateY(3px);
 }
 .bottom-content{
     display: flex;
