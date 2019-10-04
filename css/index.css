@@ -222,6 +222,8 @@ header{
     background-color: dodgerblue;
 }
 
+/************** bottome content *********************/
+
 
 /*
 box1: teal
@@ -252,6 +254,7 @@ box1: teal
 }
 
 .bottom-content .text-container {
+    flex-basis: 30%;
     padding-right: 4%;
 }
 
@@ -328,7 +331,12 @@ footer nav a {
 .about-page-btn p{
   transform: translateY(3px);
 }
-.bottom-content{
+.bottom-content-about{
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
+}
+
+footer{
+    margin-bottom: 10px;
 }
