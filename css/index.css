@@ -68,6 +68,16 @@ p {
 
 /********** header *********************************************/
 
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem); }
+    80% {
+      transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+
 header{
     width: 800px;
     margin: 20px auto;
@@ -96,10 +106,30 @@ header{
 .header-top__nav a{
     text-decoration: none;
     color: black; 
+ 
+    padding: 15px;
+    border-radius: 10px;
 
 }
 
+.header-top__nav a:hover{
+    text-decoration: none;
+    color: black; 
+    border: 1px solid black;
+    background: black;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
 
+
+}
+
+.header-top__img, .header-top__logo{
+
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
 
 /********** section  ********************************************/
 
